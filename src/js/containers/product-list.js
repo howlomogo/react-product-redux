@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
-import {selectProduct} from './../actions/index';
+import {selectProduct} from './../actions/action-select-product';
 
 class ProductList extends Component {
 

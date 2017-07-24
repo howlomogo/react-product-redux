@@ -1,16 +1,24 @@
-import React from 'react';
+import React, { Component } from 'react';
+import './App.css';
+
 import ProductList from './../containers/product-list';
 import ProductDetail from './../containers/product-detail';
 
-const App = () => (
-	<div>
-		<h2>Product List</h2>
-		<ProductList />
-		<hr />
-		<h5>Product Details:</h5>
-		<ProductDetail />
-	</div>
-);
+import Header from './Header';
+import Home from './../pages/Home';
+
+
+class App extends Component {
+
+	render() {
+		return (
+			<div>
+				<Header />
+				<Home />
+			</div>
+		)
+	}
+}
 
 
 export default App;
