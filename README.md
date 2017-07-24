@@ -1,3 +1,3 @@
 ## A project made for testing React and Redux
 
-* Create a simple application using Redux
+* Integrating Redux into my product App, for overall better structure.
